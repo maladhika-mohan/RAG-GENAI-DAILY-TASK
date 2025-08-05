@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # RAG Daily Tasks - Comprehensive NLP & RAG System Implementation 🚀
 
 A comprehensive collection of Natural Language Processing (NLP) and Retrieval-Augmented Generation (RAG) implementations developed as part of daily learning tasks. This repository showcases various NLP techniques, from basic sentiment analysis to advanced RAG system evaluation platforms.
@@ -257,3 +258,7 @@ For questions or issues:
 **Happy Learning and Building!** 🎓✨
 
 *This repository represents a comprehensive journey through modern NLP and RAG system development, from foundational concepts to production-ready applications.*
+=======
+# RAG-GENAI-DAILY-TASK
+A repository documenting a 7-day intensive study of NLP, from foundational concepts to building and evaluating advanced RAG systems.Code and notes from a week-long learning journey covering NLP, Transformers, Prompt Engineering, and Retrieval-Augmented Generation (RAG).
+>>>>>>> 15f463ec4a15ded35de735f87d9f0f44374403b9
