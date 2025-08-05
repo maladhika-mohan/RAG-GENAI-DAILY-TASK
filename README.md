@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
 # RAG Daily Tasks - Comprehensive NLP & RAG System Implementation 🚀
 
 A comprehensive collection of Natural Language Processing (NLP) and Retrieval-Augmented Generation (RAG) implementations developed as part of daily learning tasks. This repository showcases various NLP techniques, from basic sentiment analysis to advanced RAG system evaluation platforms.
