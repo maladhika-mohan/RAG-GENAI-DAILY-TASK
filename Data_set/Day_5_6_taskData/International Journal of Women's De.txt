@@ -1,0 +1,423 @@
+International Journal of Women's Dermatology xxx (2016) xxx–xxx
+
+ Contents lists available at ScienceDirect
+ International Journal of Women's Dermatology
+ Clinical trials in dermatology
+ K. Torre, M. Shahriari⁎
+ Department of Dermatology, University of Connecticut Health Center, Farmington, CT
+ art i cle info
+ Article history:
+ Received 13 December 2016
+ Accepted 14 December 2016
+ Available online xxxx
+ Keywords:
+ clinical trials
+ design
+ randomized
+ controlled
+ placebo
+ double-blinded
+ abstract
+ Clinical trials are the backbone of modern day medicine. Randomized, double-blinded, placebo-controlled
+ studies are critical for advancement in medicine and dermatology. Skin conditions such as psoriasis and
+ atopic dermatitis areamongthemostcommonhealthproblemsintheUnitedStates.Clinicaltrialscanpro
+videtreatmentsthatnot onlyofferobjectiveimprovementsinclinicaldiseasestatus butalsosubjective im
+provementsinthequalityoflifeofpatients whoare afflictedwith thedisease.Inthisarticle, wediscussthe
+ processes andresourcesofaclinicaltrialsunitandthe challengesthatcanbeencounteredduringthestudy
+ process. It is critical to engage in clinical trials to treat patients most effectively with new and innovative
+ therapies that are rooted in trial-validated, evidence-based medicine.
+ ©2016Women'sDermatologicSociety.PublishedbyElsevierInc.ThisisanopenaccessarticleundertheCC
+ BY-NC-ND license (http://creativecommons.org/licenses/by-nc-nd/4.0/).
+ Introduction
+ The history of clinical research has evolved over centuries, be
+tweencontinents, and amongdisciplines into the modernera ofclin
+ical trials. The first recorded trial can be found in biblical writings
+ between 605 and 562 BC. Records document an official order by
+ King Nebuchadnezzar, a military leader in Babylon, that instructs
+ people to eat a diet of meat and wine only, which he believed
+ wouldkeepthemphysicallyfitandhealthy(Collier, 2009).However,
+ agroupofyoungmenrebelledagainsttheorderandthekingallowed
+ them to consume vegetables and water instead. After 10 days, those
+ with the vegetarian diet appeared better nourished than those who
+ consumedthemeatandwinediet(Collier,2009).Despiteitssimplic
+ity, this record of the first trial shows how experimentation has guid
+ed decisions, which in turn has had a broader impact on the overall
+ public health (Bhatt, 2010; Collier, 2009).
+ Dr. James Lind is often credited with conducting the first clinical
+ trial in modern times (Bhatt, 2010; Collier, 2009). Although the
+ study was notperfect, heimplementedthefirst control group within
+ his studyandfoundthataddingcitrusfruittothedietsofsailorscould
+ prevent scurvy (Bartholomew, 2002). By 1863, another element of
+ modern clinical trial protocols, the placebo, was added to research
+ studies (de Craen et al., 1999). In the1900s, more advanced concepts
+ such as randomization and treatment blinding were introduced and
+ utilized in research studies (Bhatt, 2010).
+ ⁎ Corresponding author.
+ E-mail address: mshahriari@uchc.edu (M. Shahriari).
+ As the nature of clinical trials evolved, the protection of human
+ study subjects also increased. Before the 20th century, ethical princi
+ples for the care of patients were rooted in the ancient Hippocratic
+ Oathbutnotstrictlyadheredtoandeffortstoprotecthumansubjects
+ fromharmormistreatmentwereoftenreactionaryratherthanantic
+ipatory. This issue wasaddressed with thecreation of theNuremberg
+ Code and The Declaration of Helsinki, which outlined global rules of
+ conduct for human experimentation. The United States also imple
+mented its own laws and regulatory organizations to govern clinical
+ trial research; however, many years, legislative acts, and unfortunate
+ deathspassedbefore theU.S.Food andDrugAdministration(FDA)in
+ its current form was established to strictly regulate all stages of drug
+ development, manufacturing, and marketing (Borchers et al., 2007).
+ Today, clinical trials are the backbone of contemporary medicine.
+ Randomized, double-blinded, placebo-controlled clinical studies are
+ critical for the advancementofmedicineandthefieldofdermatology.
+ Overview of clinical trials
+ Between2005and2012,theFDAapproved188newtherapiesfor
+ 206 indications on the basis of the results from 448 trials (Downing
+ et al., 2014). Clinical research has led to the development of effective
+ and life-changing treatment for cardiovascular and autoimmune dis
+eases, skin conditions, diabetes, cancer, and an array of diseases that
+ affect patients worldwide.
+ Results from clinical trials have significantly improved the out
+comes and quality of life of patients with dermatologic conditions.
+ http://dx.doi.org/10.1016/j.ijwd.2016.12.001
+ 2352-6475/© 2016 Women'sDermatologic Society. Published by Elsevier Inc. This is an open access article under the CC BY-NC-ND license (http://creativecommons.org/licenses/
+ by-nc-nd/4.0/).
+ Please cite this article as: Torre K, Shahriari M, Clinical trials in dermatology, International Journal of Women's Dermatology (2016), http://
+ dx.doi.org/10.1016/j.ijwd.2016.12.001
+2
+ K. Torre, M. Shahriari / International Journal of Women's Dermatology xxx (2016) xxx–xxx
+ Since 2011, eight new therapies have been approved by the FDA for
+ the treatment of patients with metastatic melanoma, including four
+ immunotherapy agents and four targeted therapies. Since the early
+ 2000s, targeted immunotherapy for patients with psoriasis has be
+come a strong focus in clinical research and resulted in the develop
+ment of new therapeutics on a yearly basis and half a dozen agents
+ that are currently under development.
+ Skin conditions are among the most common health problems in
+ the United States and one in three people are affected at any given
+ time, which is more common than obesity, cancer, and hypertension
+ (Bickers et al., 2006). Dermatologic diseases increase both direct and
+ indirect medical costs and present a challenge to the quality of life of
+ affected patients. In addition to the clinical presentation, skin condi
+tions can also manifest as severe pruritus and cause impaired move
+ment and debilitating emotional effects (Bickers et al., 2006).
+ Psoriasis, for example, is an autoimmune skin disorder that severely
+ impacts health-related quality of life (Rapp et al., 1999) and patients
+ report reduced physical and mental functioning that is comparable
+ with that of patients with cancer, arthritis, hypertension, heart dis
+ease, diabetes, and depression.Measures of treatment efficacywithin
+ clinical trials should not only focus on clinical improvement but also
+ incorporate patients' perceptions of quality of life improvement to
+ moreholistically treat thepsychosocial aspects of dermatological dis
+eases (Charman et al., 2003).
+ The clinical trials unit
+ To maximize safety and efficacy, clinical trials are conducted in
+ four separate phases. Phase I trials are initial tests on a small group
+ of humansubjectstodeterminetreatmentsafety,doserange,andpo
+tential side effects (Collier, 2009). Phase II trials are conducted on a
+ larger group of people to determine treatment efficacy (Sedgwick,
+ 2014). Phase III trials involve the randomized and controlled multi
+center study of even larger populations to determine and confirm
+ the effectiveness of the treatment or drug in question (Sedgwick,
+ 2014). Lastly, Phase IV studies typically occur after marketing of the
+ product and assess the long-term adverse events and effects in vary
+ing populations (Collier, 2009).
+ Clinical trials can be conducted at academic medical centers and
+ in private practice settings. Typically, the study sponsor is a pharma
+ceutical company that studies a drug, treatment, or device with the
+ goal of marketing the product to the public. The pharmaceutical in
+dustry has financially sponsored and supported approximately two
+third of all clinical trials in the United States between 2008 and
+ 2013. This estimate is even higher for studies that were conducted
+ in the field of dermatology (Campa et al., 2016).
+ Every study team includes a clinician who serves as the principal
+ investigator (PI) who is responsible for the study conduct and over
+sight of the research activities. First, the PI is approached by a phar
+maceutical company to determine the PI's interest in conducting
+ the research and generate aninitial contract. Next, the PI signs a con
+f
+ identiality agreement to assure nondisclosure of any proprietary in
+formationthatis relatedtotheresearch.Thesponsorofthestudywill
+ thenassess, through a questionnaire and communication with thePI,
+ whether the trial can be conducted at the PI's site. The questionnaire
+ surveys the investigator's experience, information on thesite and pa
+tient population, and provides the PI with the full study protocol to
+ determine whether the physician can feasibly conduct the study
+ with use of the facility, available resources, and support staff. After
+ this information is collected, sponsor representatives conduct a pre
+liminary onsite visit to confirm that the site is adequate to support
+ atrial, includinganonsitereviewofspaceforstorageofstudyrecords
+ and study drug and the study protocol with personnel who are in
+volved in the trial. After selection of the trial site, multiple PIs and
+ coordinators convene during an investigators' meeting to discuss de
+tails of the protocol and exchange information about the study
+ (Carson, 2006). It is also important for the PI to be aware of the hy
+pothesis or question under evaluation and whether it aligns with
+ what Bagatin and Miot (2013) refer to as the feasible, interesting,
+ novel, ethical, and relevant (FINER) criteria.
+ The next critical step before initiation of the study is approval by
+ an institutional review board (IRB). The study site must submit doc
+uments with regard to the study protocol, patient informed consent,
+ drug and/or treatment to be studied, and other relevant details to
+ protect the subjects who will be recruited for the study. IRB approval
+ can present a challenge to research sites that initiate studies because
+ it can significantly delay the start of a trial. Check et al. (2013)
+ reviewed literature in support of a centralized IRB approval process
+ instead of the common local IRB approval process and found that
+ there are proponents of both procedures. Proponents of the central
+ized IRB review value consistency among sites and those who prefer
+ thelocal reviewprocessraiseconcernsaboutthelossofqualityofthe
+ review and of the emphasis on the context of the local community
+ (Check et al., 2013).
+ Informed consent documents are also critical to initiate a study
+ and provide study subjects with the information they need to make
+ a well-informed decision about participation in the trial. Once the
+ IRB approval process is satisfactorily completed, the PI will submit
+ multiple regulatory documents and a clinical trial agreement to indi
+cate the sponsor's responsibility to fund the trial. The site initiation
+ visit is the final step before subjects can be enrolled in the study.
+ Study representatives at the site will receive all the necessary equip
+mentanddocumentsfromthesponsorandmeetwiththeclinicalre
+searchassociate whowillmonitorthestudythroughoutthecourseof
+ thetrial. Onceasiteisfullyapprovedandinitiated,enrollmentofsub
+jects can begin (Carson, 2006).
+ For all trials, one main concern of investigators is subject recruit
+ment,especially atsitesthat do nothaveanadequatepatientpopula
+tion for the study in question. Some academic centers rely on a
+ patient registry or database to find potential study subjects (Bain,
+ 2005) whereas others use broadcast messaging techniques, flyers,
+ letters, phone calls, and presentations to health care providers
+ (Aitken et al., 2008). Recruitment is crucial to the success of the
+ study because without patients, there is no trial. If the overall target
+ sample size is not achieved, the study can be “underpowered”,
+ which may potentially jeopardize the validity of the results
+ (Gardner et al., 2016).
+ In addition to a clinical trial site with facilities, qualified principal
+ investigators, proper study protocols, and recruitment strategies, the
+ last requirement is to fill the crucial role of study coordinator. Often,
+ registered nurses are assigned this role in randomized clinical trials
+ (Mueller, 2001). Study coordinators serve as clinical interpreters
+ and patient advocates throughout the course of the trial (Sadler
+ et al., 1999) and are well versed in all aspects of the study protocol,
+ initiate the recruitment of patients, and ensure the clinical care of
+ all subjects. They also record important data from the study subjects
+ in case report forms, assist investigators with skin assessment re
+cords,monitorandreportseriousadverseevents,processtissuespec
+imens for laboratory testing, conduct the informed consent process,
+ and schedule all patient visits that last several hours (Green, 2011).
+ Not only do coordinators need to possess clinical skills to take care
+ of studypatientsincludingadministrationofthestudydrugifneeded
+ buttheymustalsohavecriticalthinkingskills to managethecomplex
+ ethical, regulatory, and scientific nature of the trial (Green, 2011;
+ Hastings et al., 2012). Study coordinators manage all dimensions of
+ study trials as well as focus on all aspects of patient care. As noted
+ above, without patients, there would be no trial, and likewise, with
+out coordinators, there would be no study patients. They are an in
+valuable resource to the clinical trial team.
+ Please cite this article as: Torre K, Shahriari M, Clinical trials in dermatology, International Journal of Women's Dermatology (2016), http://
+ dx.doi.org/10.1016/j.ijwd.2016.12.001
+K. Torre, M. Shahriari / International Journal of Women's Dermatology xxx (2016) xxx–xxx
+ Challenges of the clinical trials design
+ 3
+ also of the negative implications of studies to best care for their
+ patients.
+ Randomized, controlled clinical trials are the optimal method to
+ establish the efficacy of a drug compared with a placebo or another
+ drug (Pincusetal., 2015).However,becauseoftheir design,thesetri
+als inherently carry some limitations. One important limitation is re
+lated to the relatively short time frame, which can limit the ability to
+ address research questions related to the long-term efficacy, safety,
+ and tolerability of a drug (Pincus et al., 2015).
+ Another limitation is the potential distortion of the placebo effect.
+ There is a potential to exaggerate or attenuate the placebo effect
+ whenapatientis told that they arereceivingtreatmentin a scientific
+ experiment versus the best therapy from his or her doctor (Pincus
+ et al., 2015).
+ Additionally, study enrollment criteria typically exclude patients
+ with certain chronic conditions that are common among the target
+ population for the drug under investigation. Therefore, study results
+ maynotberepresentativeofallpotentialpatientswhowilleventual
+ly be administered the drug (Fahey, 1998; Pincus et al., 2015). Re
+cently, there have been efforts to increase the globalization of
+ randomized clinical trials at multicenter sites. This too can present
+ challenges for the validity of results if different regions have varying
+ recruitment and regulatory procedures (Pocock and Gersh, 2014).
+ As previously discussed, patient recruitment plays a vital role in a
+ clinical trial; however, this process does not come without chal
+lenges. Barriers that are associated with patient recruitment and en
+rollment include demands of the trial (i.e., time, blood draws,
+ echocardiograms, etc.), uncertainty about the treatment and possible
+ side effects, and concerns about information in the consent paper
+work (Ross et al., 1999). Experienced study personnel can help ad
+dress the concerns of patients who are interested in enrolling in a
+ trial to allow patients to make an informed decision on the basis of
+ correct information.
+ Randomized, controlled, double-blinded studies aim to eliminate
+ bias and contribute valid statistical analyses to the study results
+ (Bagatin and Miot, 2013; Schulz et al., 2002). However, inherent
+ inter-observer differences and subjectivity exists, especially in der
+matologic studies of patients with atopic dermatitis and psoriasis
+ (Futamuraetal., 2015).Evenifthesponsordefinesstrictbodysurface
+ area andphysician globalassessment valuesfor patientparticipation,
+ there remainsvariations betweenphysicianswhoperformsubjective
+ skin assessments (Futamura et al., 2015). A lack of perfect standardi
+zation betweenassessmentsischallengingtomakeeffectivecompar
+isons between studies that are used to support clinical decisions
+ (Gerbens et al., 2017).
+ Another important challenge with the application of clinical trial
+ results to everyday practice is the historical lack of data from
+ womenandminorities. Certain diseases such as breast cancer affect
+ women more than men and can present differently between the
+ sexes (Liu and Mager, 2016). Responses to treatment can also vary
+ amongmenandwomen(Pinn,2003)withevidencethatsuggestsbi
+ological differences at the cellular level (Liu and Mager, 2016). Stud
+ies that fail torecognizethepharmacokineticdifferencesbetweenthe
+ sexesneglectanentirepopulationofstudysubjects.Withthisknowl
+edge, the FDA and National Institutes of Health have established ini
+tiatives to increase the enrollment of women and minorities in
+ clinical trials.
+ One problem that is frequently noted in clinical literature is the
+ potential for publication bias (Zarbin, 2016). Selection bias to report
+ only positive results can negatively influence a clinician's decision
+ to treat a patient when only some of the relevant data is disclosed
+ (Aloshetal.,2009).Kyzasetal.(2007)reviewed1915studiesoncan
+cer prognostic markers and noted that approximately 98% of pub
+lished data referred to statistically significant study results. It is
+ important for clinicians to not only be aware of positive results but
+ The final challenge is the application of the clinical trial results to
+ one's ownpractice.Aclinician needstocarefully assesswhethertheir
+ patient is adequately represented in the study subject population or
+ the results of a studymay notbegeneralizable to that physician's pa
+tient population (Zarbin, 2016). For all patients, an informed and
+ shared decision-making process needs to occur with the severity of
+ their conditionsinmind(Fahey,1998).Theone-size-fits-allapproach
+ does notalwaysholdtruewhenapplyingresultsof clinical trialstud
+ies (Iwashyna and Deane, 2016). The biological variability between
+ patients despite similar demographics and disease states needs to
+ betaken into consideration (Zarbin, 2016). Only then can an individ
+ualized treatment plan that is unique to each patient be developed.
+ Conclusion
+ It is imperative that wecontinuetoengageinqualityclinical trials
+ to support advances in science and medicine. As Ellimoottil et al.
+ (2015) state, “clinical trials are at the heart of medical practice” and
+ aproperlydevelopedandimplementedtrialcanalterclinicalpractice
+ for the better. Regulatory agencies hold randomized clinical trials to
+ the highest standards that are rooted in evidence based medicine
+ when looking at safety and efficacy profiles (Pocock and Gersh,
+ 2014). Trials are complex and factors that increase transparency
+ within the trial such as preregistration of the trial, reporting of all
+ generateddata,clearstatistical methods, andpublication ofall results
+ despite the outcomes will pave the way for effective future treat
+ments (Campa et al., 2016). With the recent encouraging results of
+ multipleclinical trials of patients withpsoriasiswhoshowsubstantial
+ Psoriasis Area and Severity Index score improvements (Kragballe
+ et al., 2014), trials are important in the field of dermatology and
+ other medical fields to discover more effective treatment options. In
+ addition to clinical improvement, many chronic conditions such as
+ psoriasis are linked to comorbidities including inflammatory bowel
+ and cardiovascular diseases and depression (Prey et al., 2010; Weng
+ et al., 2007). Therefore, it is imperative to emphasize clinical trials
+ that also measure improvements in patients' quality of life
+ (Charman et al., 2003). For clinicians and researchers alike, the goal
+ is to improve the health and lives of the patients they treat, and
+ withproperlydesignedclinicaltrials,this canandwill beconsistently
+ achieved worldwide.
+ References
+ Aitken LM, Pelter MM,CarlsonB,MarshallAP, CrossR,Mckinley S,etal. Effective strat
+egies for implementing a multicenter international clinical trial. J Nurs Scholarsh
+ 2008;40:101–8.
+ Alosh M, Fritsch K, Soukup M, Wilkin J. Clinical trials and statistical analyses: what
+ should dermatologists look for in a report? Dermatol Ther 2009;22:199–203.
+ Bagatin E, Miot HA. How to design and write a clinical research protocol in cosmetic
+ dermatology. An Bras Dermatol 2013;88:69–75.
+ Bain LJ. Crossroads in clinical trials. NeuroRx 2005;2:525–8.
+ Bartholomew M. James Lind's treatise of the scurvy (1753). Postgrad Med J 2002;78:
+ 695–6.
+ Bhatt A. Evolution of clinical research: a history before and beyond James Lind.
+ Perspect Clin Res 2010;1:6–10.
+ Bickers DR, Lim HW, Margolis D, Weinstock M, GoodmanC, Faulkner E, et al. The bur
+den of skin diseases: 2004 a joint project of the American Academy of Dermatol
+ogy Association and the Society for Investigative Dermatology. J Am Acad
+ Dermatol 2006;55:490–500.
+ BorchersAT, Hagie F, KeenCL,GershwinME.Thehistoryandcontemporarychallenges
+ of the U.S. Food and Drug Administration. Clin Ther 2007;29:1–16.
+ Campa M, Ryan C, Menter A. Developing more open and equitable relationships with
+ industry to improve advancements in clinical research in dermatology. Br J
+ Dermatol 2016;174:1365–9.
+ Carson PA. Clinical research in dermatology: 10 steps to getting started. Dermatol Ther
+ 2006;19:377–82.
+ Charman C,ChambersC,Williams H.Measuring atopic dermatitis severity in random
+ized controlled clinical trials: what exactly are we measuring? J Invest Dermatol
+ 2003;120:932–41.
+ Please cite this article as: Torre K, Shahriari M, Clinical trials in dermatology, International Journal of Women's Dermatology (2016), http://
+ dx.doi.org/10.1016/j.ijwd.2016.12.001
+4
+ K. Torre, M. Shahriari / International Journal of Women's Dermatology xxx (2016) xxx–xxx
+ Check DK, Weinfurt KP, Dombeck CB, Kramer JM, FlynnKE. Use of central institutional
+ review boards for multicenter clinical trials in the United States: a review of the
+ literature. Clin Trials 2013;10:560–7.
+ Collier R. Legumes, lemons and streptomycin: a short history of the clinical trial. CMAJ
+ 2009;180:23–4.
+ de Craen AJ, Kaptchuk TJ, Tijssen JG, Kleijnen J. Placebos and placebo effects in medi
+cine: historical overview. J R Soc Med 1999;92:511–5.
+ Downing NS, Aminawung JA, Shah ND, Krumholz HK, Ross JS. Clinical trial evidence
+ supporting FDA approval of novel therapeutic agents, 2005-2012. JAMA 2014;
+ 311:368–77.
+ Ellimoottil C, Vijan S, Flanigan RC. A primeronclinical trial design. Urol Oncol 2015;33:
+ 116–21.
+ Fahey T. Applying the results of clinical trials to patients to general practice: perceived
+ problems, strengths, assumptions, and challenges for the future. Br J Gen Pract
+ 1998;48:1173–8.
+ Futamura M, Leshem YA, Thomas KS, Nankervis H, Williams HC, Simpson EL. A sys
+tematic review of investigator global assessment (IGA) in atopic dermatitis (AD)
+ trials: many options, no standards. J Am Acad Dermatol 2015;74:288–94.
+ Gardner HR, Fraser C, Maclennan G, Treweek S. A protocol for a systematic review of
+ non-randomised evaluations of strategies to improve participant recruitment to
+ randomised controlled trials. Syst Rev 2016;5:131–7.
+ Gerbens LA, Prinsen CA, Chalmers JR, Drucker AM, von Kobyletzki LB, Limpens J, et al.
+ Evaluation of the measurementproperties ofsymptommeasurementinstruments
+ for atopic eczema: a systematic review. Allergy 2017;72:146–63.
+ Green L. Explaining the role of the nurse in clinical trials. Nurs Stand 2011;25:35–9.
+ Hastings CE, Fisher CA, McCabe MA, National Clinical Research Nursing Consortium,
+ Allison J, Brassil D, et al. Clinical research nursing: a critical resource in the national
+ research enterprise. Nurs Outlook 2012;60:149–56.
+ Iwashyna TJ, Deane AM. Individualizing endpoints in randomized clinical trials to bet
+ter inform individual patient care: the TARGET proposal. Crit Care 2016;20:
+ 218–25.
+ Kragballe K, van de Kerkhof PC, GordonKB. Unmet needsinthetreatmentofpsoriasis.
+ Eur J Dermatol 2014;25:523–32.
+ Kyzas PA, Denaxa-Kyza D, Ioannidis J. Almost all articles on cancer prognostic markers
+ report statistically significant results. Eur J Cancer 2007;43:2559–79.
+ Liu KA, Mager NA. Women's involvement in clinical trials: historical perspective and
+ future implications. Pharm Pract (Granada) 2016;14:708–16.
+ Mueller MR. From delegation to specialization: nurses and clinical trial coordination.
+ Nurs Inq 2001;8:182–90.
+ Pincus T, Bergman MJ, Yazici Y. Limitations of clinical trials in chronic diseases: is the
+ efficacy of methotrexate (MTX) underestimated in polyarticular psoriatic arthritis
+ onthebasis oflimitationsof clinical trials more than on limitations of MTX, as was
+ seen in rheumatoid arthritis? Clin Exp Rheumatol 2015;33:S82–93.
+ Pinn VW. Sex and gender factors in medical studies. JAMA 2003;289:397–400.
+ Pocock SJ, Gersh BJ. Do current clinical trials meet society's needs?: a critical review of
+ recent evidence. J Am Coll Cardiol 2014;64:1615–28.
+ Prey S, Paul C, Bronsard V. Assessment of the risk of psoriatic arthritis in patients with
+ plaque psoriasis: a systematic review of the literature. J Eur Acad Dermatol
+ Venereol 2010;24:31–5.
+ Rapp SR, Feldman SR, Exum ML, Fleischer Jr AB, Reboussin DM. Psoriasis causes as
+ much disability as other major medical diseases. J Am Acad Dermatol 1999;41:
+ 401–7.
+ RossS, GrantA,Counsell C,Gillespie W, RussellI, Prescott R. Barriers to participation in
+ randomised controlled trials: a systematic review. J Clin Epidemiol 1999;52:
+ 1143–56.
+ Sadler GR, Lantz JM, Fullerton JT, Dault Y. Nurses' unique roles in randomized clinical
+ trials. J Prof Nurs 1999;15:106–15.
+ Schulz KF, Chalmers I, Altman DG. The landscape and lexicon of blinding in random
+ized trials. Ann Intern Med 2002;136:25–9.
+ Sedgwick P. What are the four phases of clinical research trials? BMJ 2014;348:1–2.
+ Weng X, Liu L, Barcellos LF, Allison JE, Herrinton LJ. Clustering of inflammatory
+ bowel disease with immune mediated diseases among members of a
+ northern California-managed care organization. Am J Gastroenterol 2007;102:
+ 1429–35.
+ Zarbin MA.Challenges inapplying the results of clinical trials to clinical practice. JAMA
+ Ophthalmol 2016;134:928–33.
+ Please cite this article as: Torre K, Shahriari M, Clinical trials in dermatology, International Journal of Women's Dermatology (2016), http://
+ dx.doi.org/10.1016/j.ijwd.2016.12.001

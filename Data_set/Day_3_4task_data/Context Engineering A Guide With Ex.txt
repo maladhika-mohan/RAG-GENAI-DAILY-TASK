@@ -1,0 +1,148 @@
+Context Engineering: A Guide With Examples
+
+Topics
+Artificial Intelligence
+Generative AI
+
+You may be a master prompt engineer, but as the conversation goes on, your chatbot often forgets the earliest and most important pieces of your instructions, your code assistant loses track of project architecture, and your RAG tool can’t connect information across complex documents and domains.
+
+As AI use cases grow more complex, writing a clever prompt is just one small part of a much larger challenge: context engineering.
+
+In this tutorial, I will explain what context engineering is, how it works, when to use it instead of regular prompt engineering, and the practical techniques that make AI systems smarter and more context-aware.
+
+We keep our readers updated on the latest in AI by sending out The Median, our free Friday newsletter that breaks down the week’s key stories. Subscribe and stay sharp in just a few minutes a week:
+
+
+
+What Is Context Engineering?
+Context engineering is the practice of designing systems that decide what information an AI model sees before it generates a response.
+
+Even though the term is new, the principles behind context engineering have existed for quite a while. This new abstraction allows us to reason about the most and ever-present issue of designing the information flow that goes in and out of AI systems.
+
+Instead of writing perfect prompts for individual requests, you create systems that gather relevant details from multiple sources and organize them within the model’s context window. This means your system pulls together conversation history, user data, external documents, and available tools, then formats them so the model can work with them.
+
+What is context engineering diagram
+
+Source: 12-factor-agents
+
+This approach requires managing several different types of information that make up the full context:
+
+System instructions that set behavior and rules
+Conversation history and user preferences
+Retrieved information from documents or databases
+Available tools and their definitions
+Structured output formats and schemas
+Real-time data and external API responses
+The main challenge is working within context window limitations while maintaining coherent conversations over time. Your system needs to decide what’s most relevant for each request, which usually means building retrieval systems that find the right details when you need them.
+
+This involves creating memory systems that track both short-term conversation flow and long-term user preferences, plus removing outdated information to make space for current needs.
+
+The real benefit comes when different types of context work together to create AI systems that feel more intelligent and aware. When your AI assistant can reference previous conversations, access your calendar, and understand your communication style all at once, interactions stop feeling repetitive and start feeling like you’re working with something that remembers you.
+
+Context Engineering vs. Prompt Engineering
+If you ask ChatGPT to “write a professional email,” that’s prompt engineering — you’re writing instructions for a single task. But if you’re building a customer service bot that needs to remember previous tickets, access user account details, and maintain conversation history across multiple interactions, that’s context engineering.
+
+Andrej Karpathy explains this well:
+
+People associate prompts with short task descriptions you’d give an LLM in your day-to-day use. When in every industrial-strength LLM app, context engineering is the delicate art and science of filling the context window with just the right information for the next step.
+
+Andrej Karpathy
+Most AI applications use both prompt engineering and context engineering. You still need well-written prompts within your context engineering system. The difference is that those prompts now work with carefully managed background information instead of starting fresh each time.
+
+Approach
+
+Best Used For
+
+Prompt Engineering
+
+One-off tasks, content generation, format-specific outputs
+
+Context Engineering
+
+Conversational AI, document analysis tools, coding assistants
+
+Both Together
+
+Production AI applications that need consistent, reliable performance
+
+Context Engineering in Practice
+Context engineering moves from theory to reality when you start building AI applications that need to work with complex, interconnected information. Consider a customer service bot that needs to access previous support tickets, check account status, and reference product documentation, all while maintaining a helpful conversation tone. This is where traditional prompting breaks down and context engineering becomes necessary.
+
+RAG systems
+Context engineering arguably started with retrieval augmented generation (RAG) systems. RAG was one of the first techniques that let you introduce LLMs to information that wasn’t part of their original training data.
+
+RAG systems use advanced context engineering techniques to organize and present information more effectively. They break documents into meaningful pieces, rank information by relevance, and fit the most useful details within token limits.
+
+Before RAG, if you wanted an AI to answer questions about your company’s internal documents, you’d have to retrain or fine-tune the entire model. RAG changed this by building systems that could search through your documents, find relevant chunks, and include them in the context window alongside your question.
+
+This meant LLMs could suddenly analyze multiple documents and sources to answer complex questions that would normally require a human to read through hundreds of pages.
+
+AI agents
+RAG systems opened the door to external information, but AI agents took this further by making context dynamic and responsive. Instead of just retrieving static documents, agents use external tools during conversations.
+
+The AI decides which tool will best solve the current problem. An agent can start a conversation, realize it needs current stock data, call a financial API, and then use that fresh information to continue the conversation.
+
+Introduction to AI Agents
+Learn the fundamentals of AI agents, their components, and real-world use—no coding required.
+The decreasing cost of LLM tokens also made multi-agent systems possible. Instead of cramming everything into a single model’s context window, you can have specialized agents that handle different aspects of a problem and share information between them via protocols like A2A or MCP.
+
+To learn more about AI agents, check out this AI agents cheat sheet.
+
+AI coding assistants
+AI coding assistants—like Cursor or Windsurf—represent one of the most advanced applications of context engineering because they combine both RAG and agent principles while working with highly structured, interconnected information.
+
+These systems need to understand not just individual files, but entire project architectures, dependencies between modules, and coding patterns across your codebase.
+
+When you ask a coding assistant to refactor a function, it needs context about where that function is used, what data types it expects, and how changes might affect other parts of your project.
+
+Context engineering becomes critical here because code has relationships that span multiple files and even multiple repositories. A good coding assistant maintains context about your project structure, recent changes you’ve made, your coding style, and the frameworks you’re using.
+
+This is why tools like Cursor work better the longer you use them in a project. They build up context about your specific codebase and can make more relevant suggestions based on your patterns and preferences.
+
+Context Failures And Techniques to Mitigate Them
+As you read through the article, you may think that context engineering is unnecessary or will be unnecessary in the near future as context windows of frontier models continue to grow. This would be a natural assumption because if the context is large enough, you could throw everything into a prompt (tools, documents, instructions, and more) and let the model take care of the rest.
+
+However, this excellent article written by Drew Breunig shows four surprising ways the context can get out of hand, even when the model in question supports 1 million token context windows. In this section, I will quickly describe the issues described by Drew Breunig and the context engineering patterns that solve them—I strongly recommend reading Breunig’s article for more details.
+
+Context poisoning
+Context poisoning happens when a hallucination or error ends up in your AI system’s context and then gets referenced over and over in future responses. The DeepMind team identified this problem in their Gemini 2.5 technical report while building a Pokémon-playing agent. When the agent would sometimes hallucinate about the game state, this false information would poison the “goals” section of its context, causing the agent to develop nonsense strategies and pursue impossible objectives for a long time.
+
+This problem becomes really bad in agent workflows where information builds up. Once a poisoned context gets established, it can take forever to fix because the model keeps referencing the false information as if it were true.
+
+The best fix is context validation and quarantine. You can isolate different types of context in separate threads and validate information before it gets added to long-term memory. Context quarantine means starting fresh threads when you detect potential poisoning, which prevents bad information from spreading to future interactions.
+
+Context distraction
+Context distraction happens when your context grows so large that the model starts focusing too much on the accumulated history instead of using what it learned during training. The Gemini agent playing Pokémon showed this — once the context grew beyond 100,000 tokens, the agent began repeating actions from its vast history rather than developing new strategies.
+
+A Databricks study (very interesting study; definitely worth a read) found that model correctness began dropping around 32,000 tokens for Llama 3.1 405b, with smaller models hitting their limit much earlier. This means models start making mistakes long before their context windows are actually full, which makes you wonder about the real value of very large context windows for complex reasoning tasks.
+
+
+
+Source: Databricks
+
+The best approach is context summarization. Instead of letting context grow forever, you can compress accumulated information into shorter summaries that keep important details while removing redundant history. This helps when you hit the distraction ceiling — you can summarize the conversation so far and start fresh while keeping things consistent.
+
+Context confusion
+Context confusion happens when you include extra information in your context that the model uses to generate bad responses, even when that information isn’t relevant to the current task. The Berkeley Function-Calling Leaderboard shows this — every model performs worse when given more than one tool, and models will sometimes call tools that have nothing to do with the task.
+
+The problem gets worse with smaller models and more tools. A recent study found that a quantized Llama 3.1 8b failed on the GeoEngine benchmark when given all 46 available tools, even though the context was well within the 16k window limit. But when researchers gave the same model only 19 tools, it worked fine.
+
+The solution is tool loadout management using RAG techniques. Research by Tiantian Gan and Qiyao Sun showed that applying RAG to tool descriptions can really improve performance. By storing tool descriptions in a vector database, you can select only the most relevant tools for each task. Their study found that keeping tool selections under 30 tools gave three times better tool selection accuracy and much shorter prompts.
+
+Context clash
+Context clash happens when you gather information and tools in your context that directly conflict with other information already there. A Microsoft and Salesforce study showed this by taking benchmark prompts and “sharding” their information across multiple conversational turns instead of providing everything at once. The results were huge — an average performance drop of 39%, with OpenAI’s o3 model dropping from 98.1 to 64.1.
+
+
+
+Source: Laban et. al, 2025
+
+The problem happens because when information comes in stages, the assembled context contains early attempts by the model to answer questions before it has all the information. These incorrect early answers stay in the context and affect the model when it generates final responses.
+
+The best fixes are context pruning and offloading. Context pruning means removing outdated or conflicting information as new details arrive. Context offloading, like Anthropic’s “think” tool, gives models a separate workspace to process information without cluttering the main context. This scratchpad approach can give up to 54% improvement in specialized agent benchmarks by preventing internal contradictions from messing up reasoning.
+
+Conclusion
+Context engineering represents the next phase of AI development, where the focus shifts from crafting perfect prompts to building systems that manage information flow over time. The ability to maintain relevant context across multiple interactions determines whether your AI feels intelligent or just gives good one-off responses.
+
+The techniques covered in this tutorial — from RAG systems to context validation and tool management — are already being used in production systems that handle millions of users.
+
+If you’re building anything more complex than a simple content generator, you’ll likely need context engineering techniques. The good news is that you can start small with basic RAG implementations and gradually add more sophisticated memory and tool management as your needs grow.

@@ -1,0 +1,320 @@
+Small Language Models: A Guide With Examples
+
+Topics
+Artificial Intelligence
+Generative AI
+
+Small language models (SLMs) solve the problem of making AI more accessible and efficient for those with limited resources by being smaller, faster, and more easily customized than large language models (LLMs).
+
+SLMs have fewer parameters (typically under 10 billion), which dramatically reduces the computational costs and energy usage. They focus on specific tasks and are trained on smaller datasets. This maintains a balance between performance and resource efficiency.
+
+OpenAI Fundamentals
+Get Started Using the OpenAI API and More!
+
+What Are Small Language Models?
+Small language models are the compact, highly efficient versions of the massive large language models we’ve heard so much about. LLMs like GPT-4o have hundreds of billions of parameters, but SMLs use far fewer—typically in the millions to a few billion.
+
+The key characteristics of SLMs are:
+
+Efficiency: SLMs don’t need the massive computational power that LLMs demand. This makes them great for use on devices with limited resources, like smartphones, tablets, or IoT devices—learn more about this in this blog on edge AI.
+Accessibility: People with limited budgets can implement SLMs without needing high-end infrastructure. They’re also well suited for on-premise deployments where privacy and data security are very important, as they don’t always rely on cloud-based infrastructure.
+Customization: SLMs are easy to fine-tune. Their smaller size means they can quickly adapt to niche tasks and specialized domains. This makes them well-suited for specific applications like customer support, healthcare, or education (we will get into this in more detail later!). 
+Faster inference: SLMs have quicker response times because they have fewer parameters to process. This makes them perfect for real-time applications like chatbots, virtual assistants, or any system where fast decisions are essential. You don’t need to wait around for responses, which is great for environments where low latency is a must.
+Small Language Models Examples
+The development of SLMs from 2019 to 2024 has been fast, with many new models being created to meet the need for more efficient AI. It started with GPT-2 in 2019, and over the years, models have become more focused and faster. By 2022, models like Bloom and Galactica could handle multiple languages and scientific data, and in 2023, models like Pythia and Cerebras-GPT were designed for tasks like coding and logical thinking.
+
+In 2024, even more SLMs were released, such as LaMini-GPT, MobileLLaMA, and TinyLlama, which are made to work well on mobile devices and other low-power systems. Companies like Meta, Google, and Microsoft are leading the development of these models, with some being open to the public and others kept private.
+
+SLMs timeline
+
+Source: Lu et al., 2024
+
+Practitioners use SLMs in many industries because they are light, fast, and don’t need a lot of resources to run. Here are some of these models with their parameters and key features:
+
+Model Name
+
+Parameters
+
+Open Source
+
+Key Features
+
+Qwen2
+
+0.5B, 1B, 7B
+
+Yes
+
+Scalable, suitable for various tasks
+
+Mistral Nemo 12B
+
+12B
+
+Yes
+
+Complex NLP tasks, local deployment
+
+Llama 3.1 8B
+
+8B
+
+Yes*
+
+Balanced power and efficiency
+
+Pythia
+
+160M - 2.8B
+
+Yes
+
+Focused on reasoning and coding
+
+Cerebras-GPT
+
+111M - 2.7B
+
+Yes
+
+Compute-efficient, follows Chinchilla scaling laws
+
+Phi-3.5
+
+3.8B
+
+Yes**
+
+Long context length (128K tokens), multilingual
+
+StableLM-zephyr
+
+3B
+
+Yes
+
+Fast inference, efficient for edge systems
+
+TinyLlama
+
+1.1B
+
+Yes
+
+Efficient for mobile and edge devices
+
+MobileLLaMA
+
+1.4B
+
+Yes
+
+Optimized for mobile and low-power devices
+
+LaMini-GPT
+
+774M - 1.5B
+
+Yes
+
+Multilingual, instruction-following tasks
+
+Gemma2
+
+9B, 27B
+
+Yes
+
+Local deployment, real-time applications
+
+MiniCPM
+
+1B - 4B
+
+Yes
+
+Balanced performance, English and Chinese optimized
+
+OpenELM
+
+270M - 3B
+
+Yes
+
+Multitasking, low-latency, energy-efficient
+
+DCLM
+
+1B
+
+Yes
+
+Common-sense reasoning, logical deduction
+
+Fox
+
+1.6B
+
+Yes
+
+Speed-optimized for mobile applications
+
+*With usage restrictions
+
+**For research purposes only
+
+Learn more about these models in this separate article I wrote on top small language models.
+
+How SLMs Work
+Let’s get into how small language models work.
+
+Next word prediction
+Just like LLMs, SLMs work by predicting the next word in a sequence of text. SLMs use patterns from the text they’ve been trained on to guess what comes next. It’s a simple but powerful concept that lies at the heart of all language models.
+
+For example, given the input: "In the Harry Potter series, the main character's best friend is named Ron..." An SLM would analyze this context and predict the most likely next word - in this case, "Weasley."
+
+Transformer architecture
+The transformer architecture is key to how LLMs and SLMs understand and generate language. Transformers can be understood as the brain behind language models. They use self-attention to figure out which words in a sentence are most relevant to each other. This helps the model understand the context—for example, recognizing that “Paris” refers to the city or the person you know from work.
+
+Size and performance balance
+The power of SLMs lies in their ability to balance size and performance. They use significantly fewer parameters than LLMs, typically ranging from millions to a few billion, compared to hundreds of billions in LLMs.
+
+With fewer parameters, SLMs require less computational power and data to train, which makes them more accessible if you have limited resources. The compact size of SLMs makes them process input and generate output quicker, which is super important for real-time applications like mobile keyboards or voice assistants.
+
+SLMs might not be as versatile or deeply understanding as large models, but they handle specific tasks well. For example, an SLM trained to analyze legal texts could do a better job than a general LLM in that area.
+
+How SLMs Are Created: Techniques and Approaches
+SLMs use techniques like distillation, pruning, and quantization to become smaller, faster, and more efficient.
+
+Distillation
+This is a technique for creating SLMs by transferring knowledge from a larger "teacher" model to a smaller "student" model. The goal here is to take what the teacher model has learned and compress that into the student model without losing too much of its performance.
+
+This process makes SLMs retain much of the accuracy of larger models while being far more manageable in size and computational need. With this technique, the smaller model learns not just the final predictions of the teacher, but also the underlying patterns and nuances.
+
+llm distillation flow
+
+There are several methods of knowledge distillation:
+
+Response-based: The student model learns to replicate the final output layer of the teacher model, often using "soft targets" for more nuanced information.
+Feature-based: Focuses on replicating the intermediate layers of the teacher model, helping the student extract similar patterns from data.
+Relation-based: Trains the student to understand relationships between different parts of the teacher model, emulating complex reasoning processes.
+distillation methods
+
+Pruning
+Pruning is kind of like trimming what’s not needed. During pruning, parts of the model that aren’t as important—like neurons or parameters that don’t contribute much to the overall performance—are removed. This technique helps to shrink the model without significantly impacting its accuracy. However, pruning can be a bit tricky because if you’re too aggressive, you risk cutting out too much and hurting the model’s performance.
+
+llm pruning flow
+
+Pruning can significantly reduce model size while maintaining much of the original performance, which makes it an effective technique for creating SLMs.
+
+Quantization
+Quantization involves using fewer bits to store the model's numbers. Normally, a model might use 32-bit numbers, but with this method, those numbers are reduced to 8-bit values, which are much smaller. This makes the model take up less space and allows it to run faster. The best part is that, even though the numbers are less precise, the model still works well with only a small impact on its accuracy.
+
+Imagine you’re storing temperature values in a weather app. You'd store them with high precision (like 32-bit numbers), which is more than you need. By reducing the precision to 8-bit, you might lose details, but the app will still be useful while running faster and using less memory.
+
+This is particularly useful for deploying AI on devices with limited memory and computational power, like smartphones or edge devices.
+
+LLM quantization flow
+
+Quantization is particularly effective for deploying models on devices with limited resources because it reduces memory requirements and improves inference speed.
+
+Applications of Small Language Models
+The beauty of SLMs lies in their ability to deliver powerful AI without needing massive infrastructure or constant internet connectivity, which opens up so many applications.
+
+On-device AI
+Let’s think about mobile assistants—those voice assistants on your phone that help you navigate your day. SLMs make this happen. They allow real-time text prediction, voice commands, and even translation without needing to send data to the cloud. It’s all done locally, meaning faster responses and more privacy-preserving interactions.
+
+For example, SwiftKey and Gboard utilize SLMs to provide contextually accurate text suggestions, which improves typing speed and accuracy.
+
+This also extends to offline applications where AI can still function without an internet connection, making it useful in areas with limited connectivity. 
+
+Google Translate, for instance, offers offline translation capabilities powered by SLMs, facilitating communication in areas with limited internet access.
+
+Personalized AI
+One of the great things about SLMs is that they can be customized for specific tasks or user preferences. Imagine having a chatbot that’s fine-tuned specifically for customer service in your business or an AI that knows exactly how to assist you based on your previous interactions. Because these models are smaller, they’re much easier to fine-tune and deploy across different industries.
+
+Let’s look at some examples:
+
+Healthcare: SLMs can be customized for medical text analysis to provide real-time health monitoring and advice on smart wearables. They operate independently of continuous cloud connectivity.
+Smart home devices: SLMs embedded in smart home systems can learn individual preferences for temperature and lighting, automatically adjusting settings for different times of day or specific occasions.
+Education: Educational apps that use SLMs can adapt to individual learning styles and paces, which gives personalized guidance and support to students.
+Internet of Things
+SLMs quietly run in the background on everyday devices like your smart home system or other gadgets. They help these devices understand and respond to you directly without needing to connect to the internet, making them faster and smarter.
+
+Other applications
+SLMs are finding applications in numerous other areas:
+
+Real-time language translation: SLMs make instant translation possible, which is important for global communication. Some travel apps now use SLMs to translate signs, menus, or spoken directions in real time. This helps users navigate foreign languages.
+Automotive systems: In cars, SLMs provide smart navigation, giving real-time traffic updates and suggesting the best routes. They also improve voice commands, letting drivers control music, make calls, or send messages without using their hands.
+Entertainment systems: Smart TVs and gaming consoles use SLMs for voice control and to suggest shows or games based on what you've watched or played before.
+Customer service: SLMs help companies manage customer questions more efficiently. Retail stores use SLM to answer questions about products, order status, or return policies. This leads to reducing the need for human customer support.
+LLMs vs. SLMs
+Now, let’s talk about when to go big with LLMs and when SLMs are the better choice.
+
+Task complexity
+For highly complex tasks like deep understanding, long content creation, or solving tricky problems, large models like GPT-4o usually perform better than SLMs. They can handle these tasks because they pull from a huge amount of data to give more detailed answers. However, the downside is that this level of sophistication requires a lot of computing power and time.
+
+LLMs
+
+SLMs
+
+Great at handling complex, sophisticated, and general tasks
+
+Best suited for more adequate, simpler tasks
+
+Better accuracy and performance across different tasks
+
+Great at specialized applications and domain-specific tasks
+
+Capable of maintaining context over long passages and providing coherent response
+
+May struggle with complex language tasks and long-range context understanding
+
+For example, if you're developing a general-purpose chatbot that needs to handle different topics and complex queries, an LLM would be more suitable. However, for a specialized customer service bot focusing on a specific product line, an SLM might be more than enough and even outperform an LLM due to its focused training.
+
+Resource constraints
+Now, when you have resource constraints, that’s where SLMs win. They require far less computational power to train and deploy. They are a great option if you’re working in a resource-limited environment. 
+
+LLMs
+
+SLMs
+
+Require significant computational power and memory
+
+More economical in terms of resource consumption
+
+Often need specialized hardware like GPUs for inference
+
+Can run on standard hardware and even on devices like Raspberry Pi or smartphone
+
+Higher operational costs due to resource demand
+
+Shorter training times, making them more accessible for quick deployments
+
+In situations where computing power is limited, like with mobile devices or edge computing, SLMs are often the better option as they provide a good mix of performance and efficiency.
+
+Deployment environment
+If you’re deploying AI on a cloud server where resources aren’t an issue, an LLM might be the way to go, especially if you need high accuracy and fluency in the responses. But, if you’re working on devices with limited CPU or GPU power, like IoT devices or mobile applications, SLMs are the perfect fit.
+
+LLMs
+
+SLMs
+
+Best for cloud environments where there’s plenty of computing power available
+
+They can be used in the cloud, but their smaller size makes them better for places with limited resources. They're more efficient for handling smaller tasks
+
+Not ideal for on-device AI because it needs a lot of computing power and relies on an internet connection
+
+Perfect for on-device AI, allowing offline use and faster response times. They can run mobile assistants, voice recognition, and other real-time apps without needing an internet connection
+
+Not a good fit for edge computing because they require a lot of computing power and can be slow to respond
+
+Great for edge computing, where fast responses and efficient use of resources are important. They enable AI in IoT devices, smart homes, and other edge applications
+
+When considering the deployment environment, it's essential to evaluate factors like internet connectivity, latency requirements, and privacy concerns. For applications that need to function offline or with minimal latency, SLMs deployed on-device or at the edge are often the better choice.
+
+Choosing between LLMs and SLMs depends on the complexity of the task, the resources you have, and where you want to deploy them. LLMs are great for complex tasks that need high accuracy, while SLMs are efficient and can work in more places.
+
+Conclusion
+SLMs are making AI a lot more accessible. Unlike large language models that need tons of computing power, SLMs run on fewer resources. This means smaller companies, individual developers, and even startups can use them without needing massive servers or huge budgets

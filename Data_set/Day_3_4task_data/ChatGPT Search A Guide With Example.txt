@@ -1,0 +1,242 @@
+ChatGPT Search: A Guide With Examples
+
+Topics
+Artificial Intelligence
+Generative AI
+
+I have thoroughly explored the new ChatGPT Search from OpenAI and put everything into this guide, where you’ll learn:
+
+How to access ChatGPT Search.
+How to best use ChatGPT Search for the main query types:
+Informational
+Navigational
+Commercial
+Transactional
+What are the most valuable features of ChatGPT Search.
+How ChatGPT Search works behind the scenes.
+OpenAI Fundamentals
+Get Started Using the OpenAI API and More!
+
+How to Access ChatGPT Search
+First, let’s have a look at who can access this tool and how you can access it.
+
+Eligibility
+ChatGPT Search is currently available to a specific group of users: ChatGPT Plus subscribers, ChatGPT Team users, and SearchGPT waitlist users.
+
+ChatGPT Search users
+
+OpenAI, however, is working on making ChatGPT Search available to everyone:
+
+ChatGPT Enterprise users will get access in the coming weeks.
+ChatGPT Edu users will also gain access in the coming weeks.
+Free users will get access over the coming months as OpenAI plans to roll it out gradually.
+ChatGPT Search on website
+You can access ChatGPT Search across different platforms. Let’s start with the website and follow the steps below:
+
+1. Open your favorite browser and head to https://chatgpt.com/
+
+2. Log in to your ChatGPT account.
+
+3. Look for the search icon in the chat input box. It resembles a globe symbol, and if you hover over it, it will display “Search the web.”
+
+Locating ChatGPT Search icon
+
+4. Click on that icon, and voila! You're ready to start using ChatGPT Search.
+
+Enabling ChatGPT Search
+
+ChatGPT Search on the desktop app
+ChatGPT Search is available on both desktop and mobile apps. Let’s first have a look at the desktop app:
+
+1. First, make sure you've downloaded the official ChatGPT app for your computer. You can do this through the official OpenAI page. On Mac, you will need to drag the app into your Applications folder.ChatGPT desktop installation on Mac
+
+2. Open the ChatGPT app and log in.
+
+3. Look for the search icon in the chat input area.
+
+Starting with ChatGPT Search desktop
+
+4. Tap the search icon.
+
+Enabling ChatGPT Search on desktop mac
+
+ChatGPT Search on mobile
+For the mobile app, the steps are similar:
+
+Download the official app from the app store.
+Open the app.
+Log in to your account.
+Locate the search icon.
+Click the search icon - and you are good to go!
+ChatGPT Search as a Chrome extension
+OpenAI has released a Chrome extension that lets you use ChatGPT Search directly from your browser. To set it up, follow these steps:
+
+Head to the Chrome Web Store and search for "ChatGPT Search" or use this link directly.
+Click "Add extension" and follow the prompts to install the extension.
+Once installed, you'll see the ChatGPT icon in your browser toolbar.
+Click on it to open the search interface.
+You can set ChatGPT Search as your default search engine in Chrome. That means every time you type a query in the address bar, you'll get ChatGPT's results instead of traditional search engine results.
+
+To make ChatGPT your default search:
+
+Go to Chrome settings.
+Click on "Search engine" in the left sidebar.
+Under "Search engine used in the address bar," select "ChatGPT."
+No matter which method you pick, the main features stay the same. You’ll still get search results that understand context, give detailed answers, and include source citations for easy reference.
+
+ChatGPT Search Results on the Four Query Types
+Search queries are typically divided into four categories: informational, navigational, commercial, and transactional. Let's explain each query type and see how ChatGPT Search handles them.
+
+Informational queries
+Informational queries are for learning or understanding a topic. These are the "tell me about..." or "how do I..." questions, where you want to gain new knowledge.
+
+Examples:
+
+"What is the capital of France?"
+"How do I bake a cake?"
+"Tell me about VO2 max"
+Let's try one out! Say you ask, "What are the health benefits of blueberries?"
+
+Informational Queries Answer Example
+
+Let’s comment on what has happened. When using ChatGPT's search function to ask about the health benefits of blueberries, it pulled information from sources like Healthline and Medical News Today. The answer covered benefits like antioxidants, heart health, blood sugar control, brain function, digestion, skin health, and weight management. Each benefit has been backed by specific sources, making it clear that the information came from reputable health publications. The citations appeared in a sidebar, so you can easily check the original sources for more details.
+
+The first thing that comes to mind is, how reliable are these sources? I think it would be great if you could have a “reliability score” or “trusted score” next to each source.
+
+Navigational queries
+Navigational queries are used to find a specific website or online resource.
+
+Examples:
+
+"Facebook login"
+"Gmail website"
+"OpenAI API documentation"
+Let’s try: “LangChain repo” and see what happens.
+
+Navigational Query Answer
+
+ChatGPT Search gave an overview of LangChain and linked you to its main GitHub repository, as well as other relevant ones. It explained each repository’s focus, like prompt management, chains, agents, and retrieval methods.
+
+The search results panel showed various LangChain-related links, including the PyPI page, Hugging Face integration, LangChain's blog, and several GitHub repositories. This gives extra resources and context to explore LangChain’s documentation and examples.Something to point out is that the main GitHub repository link wasn’t at the top; other resources, like the PyPI page and blog, appeared first. This suggests ChatGPT Search didn’t understand very well the navigational purpose of our query, and maybe it thought the query leaned more on the informational side.
+
+Commercial queries
+These queries express an intent to research or purchase products or services.
+
+Examples:
+
+"Best laptops for gaming"
+"iPhone 15 reviews"
+"Cheap flights to Paris"
+Let’s see what happens when we type "Best cycling computers in 2024".
+
+Commercial Query Answer I
+
+Commercial Query Answer II
+
+In this search, ChatGPT provided a list of top cycling computers for 2024 and provided a brief description for each, covering features like touchscreens, battery life, GPS navigation, mapping, and brand-specific integration. However, the list wasn’t ranked or categorized, so it wasn’t clear which models were best for specific needs (e.g., budget-friendly, long battery life). Categories or rankings would make it more useful for different preferences.
+
+The descriptions covered key features but lacked details on factors like price range, exact battery life, or unique selling points. For users deciding on a purchase, more feature comparisons would be helpful.
+
+A summary table of main features (like display size, battery life, weight, navigation, and price) would make comparing devices quicker and easier.
+
+Adding links to official product pages or trusted retailers would also help users ready to buy or seeking further details.
+
+Transactional queries
+Transactional queries are about getting things done online. These queries aim to perform an action or transaction online, such as making a purchase or booking a reservation.
+
+Examples:
+
+"Book a flight to London"
+"Order pizza online"
+"Buy tickets for a concert"
+Let's try "Enter a marathon in the UK in 2025" (for brevity, I’m only showing the first part of the result).
+
+Transactional Query Answer I
+
+In this particular case, ChatGPT provided a list of top UK marathons for 2025, including dates, locations, and event highlights. Each marathon had a description covering special aspects like scenic views, flat routes for personal bests, or a community feel.
+
+However, while popular marathons were well-covered, adding smaller or unique events (like trail or themed marathons) would make the list more inclusive for runners seeking different experiences. Also, many marathons have specific entry requirements or ballot systems. Information on these processes or deadlines would be helpful for first-time participants. Adding details like difficulty level, course elevation, or expected weather would help runners choose marathons that fit their fitness goals. A summary table could provide quick comparisons.
+
+ChatGPT Search Features
+Let's explore the features that ChatGPT Search brings to the table.
+
+News and data providers
+ChatGPT Search has teamed up with major news and data providers, improving its ability to deliver accurate, up-to-date information. Here’s a summary of some key partnerships:
+
+News Corp: Through a long-term agreement, ChatGPT Search includes content from top publications like The Wall Street Journal, Barron's, MarketWatch, and The New York Post.
+Associated Press (AP): ChatGPT Search has access to AP’s extensive news archive going back to 1985.
+Axel Springer: This partnership with the German publisher allows ChatGPT Search to pull content from Politico and Business Insider.
+Financial Times: ChatGPT can summarize articles from the Financial Times, giving users valuable financial insights.
+Le Monde and Prisa Media: These bring respected European news coverage on recent events.
+Thanks to these partnerships, when you ask ChatGPT about current events or financial topics, you’re getting information from trustworthy, well-known sources.
+
+Visual designs
+ChatGPT Search now goes beyond just text with new visual designs that make searching more engaging and informative. While specific design details aren’t available, here’s what we might expect based on similar features:
+
+Weather: Likely includes graphics for forecasts, temperature trends, and rain chances.
+Stocks: Expect interactive charts showing stock performance over time with key financial stats.
+Sports: Visual scoreboards, league standings, and player stats could be displayed in an easy-to-read format.
+News: News results may feature thumbnail images, making it simple to find and engage with stories.
+Maps: Map visuals could help with location-based searches, showing directions, points of interest, or geographic details.
+Example 1: What's the weather like in Edinburgh?
+
+Example 1: What's the weather like in Edinburgh?
+
+ChatGPT Search displays a visual forecast showing temperature and forecast along with a brief text summary.
+
+Example 2: How has Apple's stock performed over the last week?
+
+Example 2: How has Apple's stock performed over the last week?
+
+Shows an interactive stock chart for Apple, highlighting key events that affected the stock price, with data sourced from MarketWatch or The Wall Street Journal.
+
+Example 3: Who's leading the Premier League?
+
+Example 3: Who's leading the Premier League? I
+
+It presents a visual league table showing team standings sourced from a reputable sports publication.
+
+Example 4: What are the latest news stories in science and technology in the UK?
+
+Example 4: What are the latest news stories in science and technology in the UK? I
+
+ChatGPT Search provides a summary of recent news, with thumbnails and headlines from various sources like the Financial Times or The Times.
+
+Example 5: Show me Italian restaurants near Leith.
+
+Example 5: Show me Italian restaurants near Leith. I
+
+Example 5: Show me Italian restaurants near Leith II
+
+ChatGPT Search displays a map of the area with pins for Italian restaurants and a list that includes ratings and price ranges.
+
+You might have noticed from the examples that my queries were indeed edited—those weren’t my first attempts. Initially, the output didn’t show the improved features, so I had to rephrase and refine my questions to demonstrate ChatGPT Search’s capabilities.
+
+This highlights that ChatGPT Search doesn’t always use its advanced features when needed, which is an area for improvement.
+
+It’s also worth noting that in example 4, I didn’t turn on the Search tool manually. ChatGPT recognized the need to search online and enabled it automatically, showcasing its smart adaptability.
+
+How ChatGPT Search Works
+In this section, we are looking into the inner workings of ChatGPT Search.
+
+Fine-tuned GPT-4o
+The model behind ChatGPT Search is a fine-tuned version of GPT-4o, specially designed for search tasks. Here’s what makes it unique:
+
+Synthetic data training: It was trained with synthetic data to improve its search abilities.
+Distilled knowledge: It includes refined outputs from OpenAI’s o1-preview, improving its understanding of queries.
+Third-party search integration: ChatGPT Search connects with third-party search providers to tap into a vast range of web information.
+Various data sources
+ChatGPT Search doesn’t rely on just one source of information. Instead, it pulls from lots of data sources to give you thorough, up-to-date answers:
+
+Web pages: It searches millions of web pages to find relevant information for your questions.
+News articles: It accesses the latest news for current events to ensure you get the most recent updates.
+Partner content: Through partnerships with news and data providers, ChatGPT Search can access specialized content on weather, stocks, sports, and more.
+Real-time data: Unlike the standard ChatGPT model with a fixed knowledge cutoff, ChatGPT Search can access real-time information, which makes it quite useful for questions about current events or changing data.
+Conclusion
+In this guide, we've explored how ChatGPT Search integrates search capabilities into the familiar ChatGPT interface. We've detailed how to access this tool across various platforms and examined its responses to different types of search queries. Additionally, we've highlighted the enhanced features that ChatGPT Search offers, such as real-time information and visually enriched results.
+
+It remains to be seen whether ChatGPT Search can rise as an opponent to Google Search. To learn more about how the two compare, I recommend this article: ChatGPT Search vs. Google Search.
+
+FAQs
+Can I use ChatGPT for search?
+Yes, you can use ChatGPT to search if you are a plus subscriber, a team user, or if you signed up for the waiting list. It can help you find information and answer questions in the form of direct responses instead of just links to websites.

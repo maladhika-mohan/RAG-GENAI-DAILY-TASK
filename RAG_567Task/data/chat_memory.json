@@ -1,0 +1,203 @@
+{
+  "messages": [
+    {
+      "id": "83bb6c01-6945-4ac0-bc78-14944f815fe4",
+      "timestamp": "2025-07-29T15:07:02.426837",
+      "role": "system",
+      "content": "Context updated: active_document: Text file: International Journal of Women's De.txt (27,380 bytes), current_task: Document Upload Complete",
+      "message_type": "system",
+      "context": {
+        "page": "Home",
+        "changes": {
+          "active_document": "Text file: International Journal of Women's De.txt (27,380 bytes)",
+          "current_task": "Document Upload Complete"
+        }
+      },
+      "metadata": {}
+    },
+    {
+      "id": "207406ec-6055-49f0-9cc7-0b0a99b45721",
+      "timestamp": "2025-07-29T15:07:36.904871",
+      "role": "system",
+      "content": "Context updated: active_document: Text file: International Journal of Women's De.txt (27,380 bytes), current_task: Document Upload Complete",
+      "message_type": "system",
+      "context": {
+        "page": "Home",
+        "changes": {
+          "active_document": "Text file: International Journal of Women's De.txt (27,380 bytes)",
+          "current_task": "Document Upload Complete"
+        }
+      },
+      "metadata": {}
+    },
+    {
+      "id": "cd481cf7-f3b8-4f5a-a663-de5e3acc860a",
+      "timestamp": "2025-07-29T15:07:37.138613",
+      "role": "system",
+      "content": "Context updated: active_document: Text file: International Journal of Women's De.txt (27,380 bytes), current_task: Document Upload Complete",
+      "message_type": "system",
+      "context": {
+        "page": "Home",
+        "changes": {
+          "active_document": "Text file: International Journal of Women's De.txt (27,380 bytes)",
+          "current_task": "Document Upload Complete"
+        }
+      },
+      "metadata": {}
+    },
+    {
+      "id": "4a1d5a04-a920-48c7-bef4-ac23d8feb685",
+      "timestamp": "2025-07-29T15:07:37.143907",
+      "role": "user",
+      "content": "What was my previous question?",
+      "message_type": "query",
+      "context": {
+        "page": "Home",
+        "timestamp": "2025-07-29T15:07:37.143873"
+      },
+      "metadata": {}
+    },
+    {
+      "id": "d24372bd-ceb3-4d07-9c80-f8203a01deb8",
+      "timestamp": "2025-07-29T15:07:37.146298",
+      "role": "assistant",
+      "content": "Your previous question was: \"What was my previous question?\"",
+      "message_type": "response",
+      "context": {
+        "context_type": "previous_question",
+        "page": "Home"
+      },
+      "metadata": {
+        "is_contextual": true,
+        "context_type": "previous_question"
+      }
+    },
+    {
+      "id": "0b3b6bef-7e02-41cf-b769-fb29d3ac60b9",
+      "timestamp": "2025-07-29T15:08:37.300538",
+      "role": "system",
+      "content": "Context updated: active_document: Text file: International Journal of Women's De.txt (27,380 bytes), current_task: Document Upload Complete",
+      "message_type": "system",
+      "context": {
+        "page": "Home",
+        "changes": {
+          "active_document": "Text file: International Journal of Women's De.txt (27,380 bytes)",
+          "current_task": "Document Upload Complete"
+        }
+      },
+      "metadata": {}
+    },
+    {
+      "id": "42c40d52-18e7-491e-b47a-746766c4904d",
+      "timestamp": "2025-07-29T15:08:44.096199",
+      "role": "assistant",
+      "content": "Chunking analysis completed with 3 methods: fixed_size, semantic, recursive",
+      "message_type": "result",
+      "context": {
+        "page": "Task 5",
+        "task": "Chunking Analysis",
+        "methods_used": [
+          "fixed_size",
+          "semantic",
+          "recursive"
+        ],
+        "parameters": {
+          "fixed_chunk_size": 500,
+          "fixed_overlap": 50,
+          "semantic_min": 100,
+          "semantic_max": 800,
+          "recursive_chunk_size": 600,
+          "recursive_overlap": 100
+        }
+      },
+      "metadata": {
+        "total_chunks": 110,
+        "processing_time": 1753781924.09617
+      }
+    },
+    {
+      "id": "ea5ad184-9f72-4b78-8ee7-f1804bb68b6a",
+      "timestamp": "2025-07-29T15:08:44.098188",
+      "role": "system",
+      "content": "Context updated: current_task: Chunking Analysis Complete, last_chunking_method: fixed_size, semantic, recursive",
+      "message_type": "system",
+      "context": {
+        "page": "Task 5",
+        "changes": {
+          "current_task": "Chunking Analysis Complete",
+          "last_chunking_method": "fixed_size, semantic, recursive"
+        }
+      },
+      "metadata": {}
+    },
+    {
+      "id": "7ca23b62-7401-44c1-8b66-3f778ff03426",
+      "timestamp": "2025-07-29T15:09:21.170317",
+      "role": "assistant",
+      "content": "Embedding generation completed for 2 models: all-MiniLM-L6-v2, all-mpnet-base-v2",
+      "message_type": "result",
+      "context": {
+        "page": "Task 6",
+        "task": "Embedding Generation",
+        "models_used": [
+          "all-MiniLM-L6-v2",
+          "all-mpnet-base-v2"
+        ],
+        "chunking_methods": [
+          "Fixed-Size Chunking",
+          "Semantic Chunking"
+        ]
+      },
+      "metadata": {
+        "total_embeddings": 30,
+        "processing_time": 1753781961.1702843
+      }
+    },
+    {
+      "id": "d317247e-f2f9-4d0b-83f6-8531e88a2a12",
+      "timestamp": "2025-07-29T15:09:21.173854",
+      "role": "system",
+      "content": "Context updated: current_task: Embedding Generation Complete, last_embedding_model: all-MiniLM-L6-v2, all-mpnet-base-v2",
+      "message_type": "system",
+      "context": {
+        "page": "Task 6",
+        "changes": {
+          "current_task": "Embedding Generation Complete",
+          "last_embedding_model": "all-MiniLM-L6-v2, all-mpnet-base-v2"
+        }
+      },
+      "metadata": {}
+    },
+    {
+      "id": "d1ed5f2b-81a7-422a-9657-0c6291eb62e8",
+      "timestamp": "2025-07-29T15:35:28.483382",
+      "role": "system",
+      "content": "Context updated: active_document: Text file: International Journal of Women's De.txt (27,380 bytes), current_task: Document Upload Complete",
+      "message_type": "system",
+      "context": {
+        "page": "Home",
+        "changes": {
+          "active_document": "Text file: International Journal of Women's De.txt (27,380 bytes)",
+          "current_task": "Document Upload Complete"
+        }
+      },
+      "metadata": {}
+    }
+  ],
+  "context": {
+    "current_page": "Home",
+    "current_task": "Document Upload Complete",
+    "active_document": "Text file: International Journal of Women's De.txt (27,380 bytes)",
+    "last_chunking_method": "fixed_size, semantic, recursive",
+    "last_embedding_model": "all-MiniLM-L6-v2, all-mpnet-base-v2",
+    "last_faiss_index": null,
+    "recent_queries": [
+      "What was my previous question?"
+    ],
+    "session_parameters": {}
+  },
+  "metadata": {
+    "last_updated": "2025-07-29T15:35:28.483898",
+    "message_count": 11
+  }
+}
